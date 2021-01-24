@@ -23,7 +23,7 @@ tr ' ' '\12' < returnedfile
 - Pipe the output to sort
 ```Powershell
 tr ' ' '\12' < returnedfile | sort
-```Powershell
+```
 - Pipe the sorted output to uniq -c to count
 ```Powershell
 tr ' ' '\12' < returnedfile | sort | uniq -c
