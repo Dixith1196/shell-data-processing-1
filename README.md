@@ -16,6 +16,7 @@ curl "yourlongurl" -O
 - This is the curl command I used to get my data.
 ```Powershell 
 curl "http://shakespeare.mit.edu/romeo_juliet/full.html" -O "data.txt"
+```
 
 ## Bash Commands:
 
